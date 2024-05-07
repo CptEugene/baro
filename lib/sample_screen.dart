@@ -3,10 +3,10 @@ import 'dart:io';
 
 import 'package:baro/login_platform.dart';
 import 'package:flutter/material.dart';
-import 'http/http.dart' as http;
+//import 'http/http.dart' as http;
 import 'package:kakao_flutter_sdk_user/kakao_flutter_sdk_user.dart';
 import 'login_platform.dart';
-
+import 'package:http/http.dart' as http;
 
 class SampleScreen extends StatefulWidget {
   const SampleScreen({Key? key}) : super(key: key);
