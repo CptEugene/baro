@@ -17,6 +17,7 @@ module.exports = {
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
     "eol-last": 0,
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    'object-curly-spacing': ['error', 'always'],
     "indent": "off",
     "semi": "off",
     "max-len": "off",
