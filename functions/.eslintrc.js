@@ -16,7 +16,7 @@ module.exports = {
     "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
     "eol-last": 0,
-    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0}],
     "object-curly-spacing": ["error", "never"],
     "indent": "off",
     "semi": "off",
