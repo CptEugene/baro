@@ -6,9 +6,7 @@ admin.initializeApp();
 exports.sendFCMOnDocumentAdded = functions.firestore
   .document("{collection}/{documentId}")
   .onCreate(async (snapshot, context) => {
-
   // 주제 구독 관련 코드 작성하셔야 합니다
-
     // Send the FCM message to the specified topic
     const topic = "all";
     const payload = {
