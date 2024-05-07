@@ -15,6 +15,8 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+    "eol-last": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
     "indent": "off",
     "semi": "off",
     "max-len": "off",
