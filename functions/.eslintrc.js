@@ -13,7 +13,7 @@ module.exports = {
   rules: {
     "no-restricted-globals": ["error", "name", "length"],
     "prefer-arrow-callback": "error",
-    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+    "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
     "indent": "off",
     "semi": "off",
