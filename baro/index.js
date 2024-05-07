@@ -7,9 +7,9 @@
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
 
-//eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 const {onRequest} = require("firebase-functions/v2/https");
-//eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 const logger = require("firebase-functions/logger");
 
 // Create and deploy your first functions
