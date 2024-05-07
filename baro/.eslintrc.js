@@ -15,6 +15,7 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "linebreak-style": ["error", "windows"],
     "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+    "eol-last": 0,
   },
   overrides: [
     {
